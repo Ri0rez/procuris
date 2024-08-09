@@ -254,19 +254,14 @@
     </footer>
 
     <script>
-
         document.getElementById('langues').addEventListener('change', function() {
             var selectedLang = this.value;
-            var newUrl;
-
             if (selectedLang === 'en') {
-                newUrl = 'en-index.html';  // Redirige vers la page en anglais
+                window.location.href = 'en/';
             } else if (selectedLang === 'fr') {
-                newUrl = 'index.html';  // Redirige vers la page en français
+                window.location.href = '/';
             }
-
-            window.location.href = newUrl;
-        });
+        }); 
 
         document.addEventListener('DOMContentLoaded', (event) => {
             const menuToggle = document.getElementById('menu-toggle');

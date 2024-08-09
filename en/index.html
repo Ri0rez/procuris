@@ -257,17 +257,12 @@
     <script>
         document.getElementById('languages').addEventListener('change', function() {
             var selectedLang = this.value;
-            var currentPath = window.location.pathname;  // Chemin actuel sans le domaine
-            var newUrl;
-
             if (selectedLang === 'en') {
-                newUrl = '/en' + currentPath;  // Ajouter '/en' avant le chemin actuel
+                window.location.href = 'en/';
             } else if (selectedLang === 'fr') {
-                newUrl = '/fr' + currentPath;  // Ajouter '/fr' avant le chemin actuel
+                window.location.href = '../';
             }
-
-            window.location.href = newUrl;
-        });
+        }); 
 
 
         document.addEventListener('DOMContentLoaded', (event) => {
