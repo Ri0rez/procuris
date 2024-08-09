@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ul-custom li {
+    @apply font-normal;
+}
+
+/* npx tailwindcss -i ./css/style.css -o ./dist/style.css --watch */
+ 
