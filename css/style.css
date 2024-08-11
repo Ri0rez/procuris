@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ul-custom li {
+    @apply font-normal;
+}
+
+.bar1-transform {
+    transform: rotate(45deg) translate(4px, 6px);
+    background-color: #65B6ED;
+}
+.bar2-transform {
+    opacity: 0;
+}
+.bar3-transform {
+    transform: rotate(-45deg) translate(6px, -8px);
+}
+ 

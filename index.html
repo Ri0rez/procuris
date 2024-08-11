@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth box-border">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap" rel="stylesheet">
+    <title>Procuris</title>
+</head>
+<body class="text-base md:text-2xl leading-relaxed"> 
+    <header class="relative">
+        <div class="navbar px-5 flex justify-between items-center min-h-[10vh] w-full">
+             <div class="logo">
+                <img class="w-[70px] md:w-[100px] my-1.5" src="images/logo-procuris.png" alt="logo-procuris">
+            </div>
+
+            <ul class="navlinks bg-blanc absolute top-20 right-0 hidden flex-col px-5 py-3 lg:flex lg:flex-row gap-5 md:pr-4 lg:static lg:gap-10" id="nav-list">
+                <li class="text-center"><a href="#">Accueil</a></li>
+                <li class="text-nowrap text-center"><a href="#apropos">A propos</a></li>
+                <li class="text-center"><a href="#services">Services</a></li>
+                <li class="text-center"><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle flex flex-col justify-around w-8 h-7 cursor-pointer lg:hidden " id="menu-toggle">
+                <div class="bar h-1 w-full bg-noir rounded-xl transition duration-300 ease-in-out "></div>
+                <div class="bar h-1 w-full bg-bleu rounded-xl transition duration-300 ease-in-out "></div>
+                <div class="bar h-1 w-full bg-noir rounded-xl transition duration-300 ease-in-out "></div>
+            </div>
+        </div>
+    </header>
+    <main class="flex flex-col">
+        <section class="hero flex items-center justify-center min-h-[45vh] w-full lg:min-h-[70vh] bg-[url('../images/Hero.png')] bg-cover bg-center bg-no-repeat">
+            <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold mb-4 text-center px-4 text-blanc font-hero">GESTION DE LA CHAINE D’APPROVISIONNEMENT <br> ET OPTIMISATION DE CHARGE </h1>
+        </section>
+        
+        <section id="apropos" class="flex flex-col gap-14 ">
+            <div class="vision flex flex-col gap-8 pt-8">
+                <div class="sec-h2 flex justify-center items-center px-2 gap-8 ">
+                    <div class="dec flex h-1 w-20 bg-bleu "></div>
+                    <h2 class="text-xl md:text-2xl lg:text-4xl  font-semibold text-nowrap">Notre Vision</h2>
+                    <div class="dec flex h-1 w-20 bg-bleu"></div>
+                </div>
+                <p class="text-center px-12 md:px-20">
+                    " Nous aspirons à être reconnus en Afrique comme une référence en matière d’accélération de la croissance et du succès à long terme des entreprises par la gestion efficiente des achats, de logistique et l’optimisation de charges. "
+                </p>
+            </div>
+
+            <div class="mission flex flex-col-reverse md:flex-row  md:justify-between items-center mx-8 lg:mx-10 relative gap-8 md:gap-9 ">
+
+                <div class="mission-text md:w-2/4 flex flex-col justify-center items-center">
+
+                    <div class="text-center"><h2 class=" text-xl md:text-2xl lg:text-4xl  font-semibold mb-3 border-l-8 px-2.5 flex text-nowrap border-bleu"> Notre Mission</h2></div>
+
+                    <p class="p-2.5 border-none text-center md:text-start">
+                        Dans un marché de plus en plus concurrentiel et exigeant, la maitrise des coûts est cruciale pour la survie et le développement de toute entreprise. Chez PROCURIS, nous accompagnons les entreprises dans l’optimisation de leurs charges et l’achat de biens et services au juste prix. <br> <br>
+                        Notre mission est de vous aider à réaliser des économies significatives sans compromettre la qualité. Notre expertise  nous permet de vous garantir un accompagnement personnalisé et  des processus d’achat efficaces et transparents, permettant ainsi à votre organisation de se concentrer sur son cœur de métier et sa croissance.
+                    </p>
+                </div>
+
+                <div class="mission-image w-full md:w-2/4 h-[30vh] md:h-[80vh] lg:h-[60vh] rounded-3xl bg-[url('../images/Mission.jpg')] bg-cover bg-center bg-no-repeat ">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="flex flex-col-reverse md:flex-row justify-center px-8 gap-8 pt-8">
+
+            <div class="objectif flex flex-col gap-4 justify-center items-center">
+
+               <h2 class=" text-xl md:text-2xl lg:text-4xl  font-semibold text-center border-l-8 px-2.5 flex text-nowrap border-bleu">
+                    Nos Objectifs
+               </h2>
+
+               <p class="">
+                <ol class="border-2 border-bleu py-5 pl-8 pr-3 h-full rounded-tl-[30px]" 
+                style="list-style: url(images/puce.svg);">
+
+                    <li class="mb-2">Maîtriser les achats par la réduction des coûts et le maintien de la qualité des biens et services.</li>
+                    <li class="mb-2">Optimiser les processus d'achat afin d’assurer une meilleure transparence et efficacité.</li>
+                    <li class="mb-2">Assister les entreprises dans l’optimisation de leurs charges pour favoriser leur croissance.</li>
+                    <li class="mb-2">Garantir un accompagnement personnalisé pour répondre aux besoins spécifiques de chaque client.</li>
+                    <li class="mb-2">Externaliser la gestion des achats en la déléguant à des experts afin de permettre aux entreprises de se concentrer sur leur cœur de métier.</li>
+                </ol>
+               </p>
+            </div>
+
+            <div class="service flex flex-col gap-4 justify-center items-center">
+                <h2 class=" text-xl md:text-2xl lg:text-4xl  font-semibold text-center border-l-8 px-2.5 flex text-nowrap border-bleu">
+                    Nos services
+                </h2>
+                <p>
+                    <ul class="border-2 border-bleu py-5 pl-8 pr-3 h-full rounded-tr-[30px]" 
+                    style="list-style: url(images/puce.svg);">
+                    
+                        <li class="mb-2">Réalisation de mercuriale de prix</li>
+                        <li class="mb-2">Service d’audit et d’évaluation de probité, des procédures d’achats et appels d’offres</li>
+                        <li class="mb-2">Rédaction des procédures d’achat et de logistique</li>
+                        <li class="mb-2">Assistance à la gestion d’appels d’offres (rédaction de dossier, dépouillement et attribution)</li>
+                        <li class="mb-2">Évaluation de besoin et formation d’équipe d’acheteurs</li>
+                        <li class="mb-2">Sourcing stratégique achat ou fourniture de biens et services complexes</li>
+                        <li class="mb-2">Gestion externalisée des opérations d’achat et / ou Mise à disposition de ressources humaines pour la gestion des opérations courantes d’achats</li>
+                        <li class="mb-2">Benchmarking de charges, Audit de charges et mise en œuvre de projets de réduction de coûts</li>
+                        <li class="mb-2">Gestion de la logistique et de protocole</li>
+                    </ul>                    
+                </p>
+            </div>
+        </section>
+
+        <section class="clients">
+            <div class="flex flex-col pt-8 pb-2">
+
+                <div class="sec-h2 flex justify-center items-center px-3 gap-5 ">
+                    <div class="dec flex h-1 w-20 bg-bleu "></div>
+                    <h2 class="text-xl md:text-2xl lg:text-4xl  font-semibold text-nowrap">ILS NOUS FONT CONFIANCE</h2>
+                    <div class="dec flex h-1 w-20 bg-bleu"></div>
+                </div>
+
+            <div class="slider overflow-hidden py-5 mt-7 bg-gris text-black whitespace-nowrap relative top-3 z-20 ">
+                <div class="text-slide inline-block animate-animation py-4">
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">AZALAÏ HOTEL </span>
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">COFA  BIOTECH </span>
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">COFA  BIOTECH </span>
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">PLAN BENIN </span>
+                </div>
+                <div class="text-slide inline-block animate-animation">
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">AZALAÏ HOTEL </span>
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">COFA  BIOTECH </span>
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">COFA  BIOTECH </span>
+                    <span class=" md:h-12 mx-4 md:mx-8 py-3 md:py-5 px-4 md:px-8 text-xl md:text-2xl border-bleu border-[3px] rounded-lg font-bold ">PLAN BENIN </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pt-10 flex flex-col items-center">
+            <h2 class=" text-xl md:text-2xl lg:text-4xl  font-semibold mb-3 text-nowrap text-center">NOUS CONTACTER</h2>
+
+            <div class="contact-card flex flex-col md:flex-row justify-center gap-4 md:justify-around my-8 px-5 text-center">
+                <div class="telephone flex justify-center items-stretch gap-3 px-5"><img class="w-7" src="images/phone.svg" alt="phone icon"><p>+229 96 O6 18 18 | +229 95 05 04 04</p></div>
+                <div class="mail flex justify-center items-stretch gap-4 px-5"><img class="w-7" src="images/email.svg" alt="mail icon"><p><a href="mailto:contact@procuris-sarl.com">contact@procuris-sarl.com</a></p></div>
+                <div class="adresse flex justify-center items-stretch gap-4 px-5"><img class="w-7" src="images/mailbox.svg" alt="adress icon"><p>02  BP 2325 Cotonou , Bénin</p></div>
+            </div>
+        </section>
+
+        <section class="abonne flex justify-center items-center overflow-x-hidden">
+
+            <div class="container p-8 ">
+                <form action="" class="flex flex-col md:flex-row md:justify-center gap-5">
+                    <div class="input-field relative font-bold bg-blanc">
+                        <input
+                        class="font-normal py-5 px-5 rounded-lg border-[3px] border-gris2 w-full md:w-80 h-16 tracking-[1px] focus:outline-none focus:border-bleu valid:outline-none valid:border-bleu"
+                        required=""
+                        type="email"
+                        name="mail"
+                        id="mail"
+                        placeholder="exemple@mail.com"
+                        />
+                        <label for="mail" 
+                        class="bg-blanc absolute pointer-events-none px-8 left-4 text-bleu border-none rounded-full tracking-[1px]  scale-90 -translate-x-2.5 -translate-y-1/2 font-bold " >Votre e-mail</label>
+                    </div>
+
+                    <input 
+                    type="submit" 
+                    value="Abonnez-vous à notre newsletter" 
+                    class="bg-bleu h-16 border-[3px] md:p-3 rounded-lg border-gris2 text-blanc font-bold cursor-pointer hover:bg-bleu1 focus:outline-none active:border-bleu valid:outline-none"
+                    > 
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="flex flex-col items-center pt-8 ">
+
+        <div class="foot-info flex flex-col-reverse md:flex-row gap-8 md:justify-around text-center px-10 py-4 bg-gris3 w-full">
+
+            <div class="flex md:flex-col md:justify-normal items-center justify-between gap-5">
+                <div class="info flex flex-col justify-center items-center gap-5">
+                    <img class="w-[60px] md:w-[100px] my-1.5 hidden md:flex" src="images/logo-procuris.png" alt="">
+                    <div class="foot-links flex gap-5 ">
+                        <div class="facebook"><a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="images/facebook.svg" alt="facebook"></a></div>
+                        <div class="instagram"><a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><img src="images/instagram.svg" alt="instagram"></a></div>
+                        <div class="likedin"><a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="linkedin"></a></div>
+                    </div>
+                </div>
+                <div class="langue">
+                    <select name="langues" id="langues" class="bg-gris3 focus:outline-none">
+                        <option value="fr">Français</option>
+                        <option value="en">Anglais</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-8 md:gap-24 lg:mx-10">
+
+                <div class="liens flex flex-col items-center lg:px-5 ">
+                    <h3 class="text-lg md:text-2xl font-semibold mb-2 hidden md:block">Liens</h3>
+                    <ul class="ul-custom flex md:flex-col gap-4">
+                        <li><a href="#">Acceuil</a></li>
+                        <li class="text-nowrap"><a href="#apropos">A propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="adresse flex flex-col justify-center items-center text-center">
+                    <h3 class="text-lg md:text-2xl font-semibold mb-2">Adresse</h3>
+                    <ul>
+                        <div class="flex justify-center gap-3">
+                            <img class="w-5" src="images/phone.svg" alt="">
+                            <li>+229 95 05 04 04/+229 96 06 18 18</li>
+                        </div>
+                        <div class="flex justify-center gap-3">
+                            <img class="w-5" src="images/email.svg" alt="">
+                            <li><a href="mailto:contact@procuris-sarl.com">contact@procuris-sarl.com</a></li>
+                        </div>
+                        
+                        <li>
+                            <ul>
+                                <div class="flex justify-center gap-3">
+                                    <img class="w-5" src="images/mailbox.svg" alt="">
+                                    <li>02  BP 2325 Cotonou , Bénin</li>
+                                </div>
+                                <li>IFU : 32O1400338010 | RRCM/AB/ 14-B-225</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright py-4 bg-gris w-full flex items-center justify-center text-sm md:text-base">
+            <p>Copyright  2024 &copy; Procuris Sarl , Touts droits Réservés</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('langues').addEventListener('change', function() {
+            var selectedLang = this.value;
+            if (selectedLang === 'en') {
+                window.location.href = 'en/index.html';
+            } else if (selectedLang === 'fr') {
+                window.location.href = '../index.html';
+            }
+        }); 
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navList = document.getElementById('nav-list');
+            const bars = document.querySelectorAll('.bar');
+
+            menuToggle.addEventListener('click', () => {
+                navList.classList.toggle('hidden');
+                navList.classList.toggle('flex');
+                
+                // Toggle transformation classes for bars
+                bars[0].classList.toggle('bar1-transform');
+                bars[1].classList.toggle('bar2-transform');
+                bars[2].classList.toggle('bar3-transform');
+            });
+        });
+    </script>
+    
+</body>
+</html>
